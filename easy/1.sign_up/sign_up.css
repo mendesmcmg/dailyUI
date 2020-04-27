@@ -1,0 +1,63 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    background-image: url("./images/gtdg.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+header {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 60px;
+}
+
+nav {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    text-align: center;
+    display: flexbox;
+} 
+
+a {
+    justify-content: space-between;
+    margin: 15px 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    overflow: scroll;
+    width: 100%;
+    background-color: whitesmoke;
+    opacity: 0.9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a{
+    display: block;
+}
+
+.input-card {
+    margin: 10% auto;
+    padding: 1% 10%;
+    height: 30%;    
+    width: 30%;
+    background-color: #002D6D;
+    color: white;
+    opacity: 0.9;
+    border-radius: 10px;
+    text-align: center;
+}

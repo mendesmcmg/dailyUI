@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interplanetary Travels</title>
+    <link rel="stylesheet" type="text/css" href="sign_up.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>Interplanetary Travels</header>
+    <nav>
+      <a>About</a>
+      <div class="dropdown">
+        <a>Available Planets</a>
+        <div class="dropdown-content">
+          <a>Mercury</a>
+          <a>Venus</a>
+          <a>Mars</a>
+          <a>Saturn</a>
+          <a>Neptun</a>
+        </div>
+      </div>
+      <a>What should you know</a>
+      <a>Aliens</a>
+      <a>Fees</a>
+      <a>FAQ</a>
+    </nav>
+    
+    <div class="input-card">
+        <form>
+            <h1> Register Here </h1>
+            <p>First name of the explorer:</p>
+            <input type="text">
+
+            <p>Last name of the explorer:</p>
+            <input type="text">
+
+            <p>Your username goes here:</p>
+            <input type="text">
+
+            <p>Your very secret password:</p>
+            <input type="password">
+
+            <p>Which planet would you care to visit?</p>
+            <select id="planets" name="Planets">
+                <option value=" "> </option>
+                <option value="mercury">Mercury</option>
+                <option value="venus">Venus</option>
+                <option value="saturn">Saturn</option>
+                <option value="neptun">Neptun</option>
+            </select> 
+            <br><br>        
+
+            <input type="checkbox" id="awareness" name="awareness" value="Aware">
+            <label for="awareness"> I am aware of the risk of alien attacks</label><br><br>
+
+            <button type="button">I'm ready for the adventure</button> 
+        </form>
+    </div>
+
+  </body>
+</html>
