@@ -20,7 +20,8 @@ nav {
     background-color: whitesmoke;
     opacity: 0.9;
     text-align: center;
-    display: flexbox;
+    position: relative;
+    z-index: 2;
 } 
 
 a {
@@ -36,7 +37,7 @@ a {
 .dropdown-content {
     display: none;
     position: absolute;
-    overflow: scroll;
+    overflow: none;
     width: 100%;
     background-color: whitesmoke;
     opacity: 0.9;

@@ -1,0 +1,38 @@
+* {
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(#1AC67E, #0AC2B7) no-repeat center fixed;
+    background-size: cover;
+}
+
+h1 {
+    margin: 5% auto;
+    text-align: center;
+    color: white;
+    font-size: 60px;
+}
+
+.card-container {
+    height: 600px;
+    width: 45%;
+    margin: auto;
+    border-radius: 15px;
+    background: white;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.button {
+    border-radius: 15px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 500px;
+    box-shadow: 4px 4px #888888;
+    border: none;
+}
+
+.button:focus, .button:active {
+    outline: none;
+    box-shadow: 4px 4px #365533;
+}
