@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #264653;
+    color: blanchedalmond;
+}
+
+input {
+    border-radius: 5px;
+    margin: 3%;
+}
+
+.calculator {
+    position: relative;
+    display: grid;
+    border-radius: 5px;
+    background-color: #e9c46a;
+    height: 500px;
+    width: 300px;
+    padding: 1%;
+}
+
+.calculator .value {
+    grid-column: span 4;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.calculator span {
+    display: grid;
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    background-color: #2a9d8f;
+    place-items: center;
+    border: 1px solid rgba(0, 0, 0, .1);
+}
+
+.calculator span:active {
+    background-color: #e9c46a;
+    color: #111;
+}
+
+.calculator span.clear {
+    grid-column: span 2;
+    width: 90%;
+    background-color: #f4a261;
+}
+
+.calculator span.plus {
+    grid-row: span 2;
+    height: 120px;
+}
+
+.calculator span.equal {
+    background-color: #e76f51;
+}
