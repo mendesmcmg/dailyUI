@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+
+.container {
+    width: 400px;
+    height: 400px;
+    background: #264653; 
+    -moz-border-radius: 200px; 
+    -webkit-border-radius: 200px; 
+    border-radius: 200px;
+    margin: 15% auto;
+}
+
+.book {
+    width: 170px;
+    height: 230px;
+    background-color: #2a9d8f;
+    margin: auto;
+    top: 50%;
+    position: relative;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    border: black solid 1px;
+    font-family: 'Limelight', cursive;
+    font-size: 25px;
+    color: #e9c46a;
+    box-shadow: 10px 10px white, 15px 15px black;
+    border-radius: 3px;
+}
+
+h1 {
+    text-shadow: 1px 1px black;
+}
